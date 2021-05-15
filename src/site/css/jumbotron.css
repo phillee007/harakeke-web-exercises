@@ -2,3 +2,10 @@
 body {
     padding-top: 3.5rem;
 }
+
+/* Useful so that if printing out the pages, the links are also shown */
+@media print {
+    a::after {
+        content: " (" attr(href) ") ";
+    }
+}
