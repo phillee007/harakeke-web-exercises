@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <title>Week 2 - More HTML</title>
+    <title>Week 3 - Styling with CSS</title>
 </head>
 
 <body>
@@ -40,21 +40,21 @@
     <main role="main">
         <div class="container">
 
-            <h1 class="text-primary pt-4">Week 2 - More HTML (and some CSS)</h1>
+            <h1 class="text-primary pt-4">Week 3 - Styling with CSS</h1>
             <!-- Example row of columns -->
             <div class="row pt-4">
                 <div class="col-md-6">
                     <h2>Recap on last week</h2>
                     <ul>
-                        <li><a
-                                href="https://www.superwebpros.com/blog/how-does-a-website-work/#:~:text=If%20you%20host%20your%20website,So%20there%20you%20have%20it">What
-                                is a website?</a> A collection of web pages containing html and other code. Hosted on a
-                            web server somewhere, downloaded, translated and displayed by your web browser.</li>
-                        <li><a href="https://www.w3schools.com/html/html_intro.asp">What is html?</a> HTML is the
-                            standard markup language for creating Web pages. <a
-                                href="https://www.w3schools.com/html/html_intro.asp">w3schools tutorial</a>
-                        <li>Coding on an ipad with Koder app. Much easier at home if you have a computer and keyboard!
+                        <li>Html elements - an HTML element is defined by a start tag, some content, and an end tag.
+                            <br>
+                            <img src="img/html-element-diagram.png">
                         </li>
+                        <li>Some elements don't have content, and don't require a closing tag</li>
+                        <li>Don't forget your closing tags!</li>
+                        <li>Html attributes - key/value pairs that provide additional information about an element.
+                            Always specified in the <i>start tag.</i></li>
+                        <li>Don't forget to use quotation marks!</li>
                     </ul>
 
                 </div>
@@ -66,9 +66,12 @@
 &lt;html&gt;
     &lt;title&gt;HTML Tutorial&lt;/title&gt;
     &lt;body&gt;
-        &lt;h1&gt;This is a heading&lt;/h1&gt;
-        &lt;h2&gt;This is a smaller heading&lt;/h2&gt;
-        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+        &lt;h1&gt;I am an html element&lt;/h1&gt;
+        &lt;h2&gt;So am I&lt;/h2&gt;
+        &lt;p&gt;I am a paragraph. 
+            &lt;a href="http://some-site.com"&gt;I am a link inside a paragraph&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;img src="i-have-no-closing-tag.jpg"&gt;
     &lt;/body&gt;
 &lt;/html&gt;
 </code>
@@ -84,23 +87,37 @@
             <hr />
             <div class="row pt-4">
                 <div class="col-md-6">
-                    <h2>Some more HTML theory</h2>
+                    <h2>Making your site look good with CSS</h2>
                     <ul>
-                        <li><a href="https://www.w3schools.com/html/html_intro.asp">w3schools tutorial</a></li>
-                        <li><a href="https://www.w3schools.com/html/html_elements.asp">What are elements?</a></li>
-                        <li><a href="https://www.w3schools.com/html/html_attributes.asp">What are attributes?</a></li>
+                        <li>HTML is used to <i>structure</i> a page and provide content.</li>
+                        <li>CSS is the language we use to <i>style</i> an HTML document (web page).</li>
+                        <li><a href="https://www.w3schools.com/css/default.asp">w3schools.com</a></li>
                     </ul>
                     <h2>
-                        Let's get back to coding!
+                        Let's look at some examples
                     </h2>
                     <ul>
-                        <li>Open your site from last week, or start fresh from <a
-                                href="https://www.w3schools.com/html/html_intro.asp">w3schools tutorial</a>
-
-                        </li>
-                        <li>Heading elements
+                        <li>Basic syntax of a CSS rule</li>
+                        <li>Different kinds of selectors</li>
+                        <li>Challenge - create three <b>paragraphs</b> using the <i>element</i> selector:
                             <ol>
-                                <li>Add some headings from &lt;h1&gt; to &lt;h4&gt;</li>
+                                <li>Left-aligned, with green text</li>
+                                <li>Centre-aligned, with red text</li>
+                                <li>Right-aligned, with blue text</li>
+                            </ol>
+                        </li>
+                        <li>Challenge - create three <b>headings</b> using the <i>class</i> selector:
+                            <ol>
+                                <li>Bold, with red text</li>
+                                <li>Underlined, with yellow text</li>
+                                <li>Italicised, with orange text</li>
+                            </ol>
+                        </li>
+                        <li>Challenge - create three links using the <i>id</i> selector:
+                            <ol>
+                                <li>Bold, with red text</li>
+                                <li>Underlined, with yellow text</li>
+                                <li>Italicised, with orange text</li>
                             </ol>
                         </li>
                         <li>Links with the &lt;a&gt; element
@@ -116,7 +133,7 @@
                                 <li>Find an image</li>
                                 <li>Download it and save in Koder</li>
                                 <li>Add an &lt;img&gt; tag and set the <i>"src"</i> attribute</li>
-                                <li><i>Notice that the &lt;img&gt; doesn't need a closing tag?</i></li>
+                                <li><i>Notice that the &lt;img /&gt; tag is self-closing?</i></li>
                             </ol>
                         </li>
                         <li>Lists with the &lt;ul&gt; and &lt;ol&gt; elements
@@ -129,7 +146,25 @@
 
                 </div>
                 <div class="col-md-6">
-                    <img src="img/koder-screenshot.png" style="width:100%" />
+                    <div class="alert alert-success">
+                        <pre>
+<code class="language-css">
+body {
+    background-color: lightblue;
+}
+
+h1 {
+color: white;
+text-align: center;
+}
+
+p {
+font-family: verdana;
+font-size: 20px;
+}
+</code>
+                    </pre>
+                    </div>
                 </div>
             </div>
             <hr />
@@ -165,7 +200,7 @@
         </div> <!-- /container -->
 
     </main>
-    
+
     <footer>
         <div class="container">
             <p>All the source code for this site can be found at <a target="_blank"

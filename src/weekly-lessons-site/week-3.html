@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- Font awesome for icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Week 3 - Styling with CSS</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Weekly lessons</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="week-1.html">Week 1</a>
+                        <a class="dropdown-item" href="week-2.html">Week 2</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main">
+        <div class="container">
+
+            <h1 class="text-primary pt-4">Week 3 - Styling with CSS</h1>
+            <!-- Example row of columns -->
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h2>Recap on last week</h2>
+                    <ul>
+                        <li>Html elements - an HTML element is defined by a start tag, some content, and an end tag.
+                            <br>
+                            <img src="img/html-element-diagram.png">
+                        </li>
+                        <li>Some elements don't have content, and don't require a closing tag</li>
+                        <li>Don't forget your closing tags!</li>
+                        <li>Html attributes - key/value pairs that provide additional information about an element.
+                            Always specified in the <i>start tag.</i></li>
+                        <li>Don't forget to use quotation marks!</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="alert alert-success">
+                        <pre>
+<code class="language-html">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;title&gt;HTML Tutorial&lt;/title&gt;
+    &lt;body&gt;
+        &lt;h1&gt;I am an html element&lt;/h1&gt;
+        &lt;h2&gt;So am I&lt;/h2&gt;
+        &lt;p&gt;I am a paragraph. 
+            &lt;a href="http://some-site.com"&gt;I am a link inside a paragraph&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;img src="i-have-no-closing-tag.jpg"&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code>
+                    </pre>
+                    </div>
+                </div>
+
+            </div>
+            <div class="alert alert-danger" role="alert">
+                <h3 class="text-center"><i class="fas fa-skull"></i><b><i> Remember your posture and take regular
+                            breaks!!! </i></b><i class="fas fa-skull"></i></h3>
+            </div>
+            <hr />
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h2>Making your site look good with CSS</h2>
+                    <ul>
+                        <li>HTML is used to <i>structure</i> a page and provide content.</li>
+                        <li>CSS is the language we use to <i>style</i> an HTML document (web page).</li>
+                        <li><a href="https://www.w3schools.com/css/default.asp">w3schools.com</a></li>
+                        <li>Basic syntax of a CSS rule</li>
+                    </ul>
+                    <h2>
+                        Let's look at some examples using CSS in a separate stylesheet
+                    </h2>
+                    <ul>
+                        <li>Different kinds of <a href="https://www.w3schools.com/css/css_selectors.asp">selectors</a> -
+                            element, class, id</li>
+                        <li>Exercise - create a separate stylesheet</li>
+                        <li>Challenge - create three <b>paragraphs</b>:
+                            <ol>
+                                <li>One using an element selector, with green text</li>
+                                <li>One using a class selector, with red text</li>
+                                <li>One using an id selector, with blue text</li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Some rules we can use to modify elements with text in them
+                            <ul>
+                                <li><i><a href="https://www.w3schools.com/css/css_colors.asp">color</a></i></li>
+                                <li><i><a
+                                            href="https://www.w3schools.com/css/css_background.asp">background-color</a></i>
+                                </li>
+                                <li><i><a href="https://www.w3schools.com/css/css_font_size.asp">font-size</a></i></li>
+                                <li><i><a href="https://www.w3schools.com/cssref/pr_font_weight.asp">font-weight</a></i>
+                                </li>
+                                <li><i><a
+                                            href="https://www.w3schools.com/css/css_text_decoration.asp">text-decoration</a></i>
+                                </li>
+                                <li><i><a
+                                            href="https://www.w3schools.com/css/css_text_transformation.asp">text-transform</a></i>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Challenge - styling the <i>body element</i>
+                            <ol>
+                                <li>Make the font size 15px</li>
+                                <li>Make the background colour FloralWhite</li>
+                                <li>Make the text colour ForestGreen</li>
+                            </ol>
+                        </li>
+                        <li>Challenge - create three <b>paragraphs</b> using the <i>class</i> selector:
+                            <ol>
+                                <li>20px size, left-aligned, bold, with green text and a "Lightblue" background</li>
+                                <li>15px size, centre-aligned, italicised, with red text and a "Yellow"</li>
+                                <li>10px size, right-aligned, underlined, with blue text and a "MintCream" background
+                                </li>
+                            </ol>
+                        </li>
+                        <li>Inline styles - e.g. &lt;h1 style="color:Tomato;"&gt;Hello World&lt;/h1&gt;</li>
+                        <li>Challenge - change the colour of one of your paragraphs using an inline style</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="alert alert-success">
+                        <pre>
+<code class="language-css">
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+h1 {
+    color: white;
+    background-color: lightblue;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+    background-color: lightpink;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #191970;
+    background-color: MintCream;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+</code>
+                    </pre>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h2>The CSS Box Model</h2>
+                    <ul>
+                        <li><a href="https://www.w3schools.com/css/css_boxmodel.asp">What is it?</a></li>
+                        <li>Content - The content of the box, where text and images appear</li>
+                        <li>Padding - Clears an area around the content. The padding is transparent</li>
+                        <li>Border - A border that goes around the padding and content</li>
+                        <li>Margin - Clears an area outside the border. The margin is transparent</li>
+                    </ul>
+                    <h2>
+                        Let's have a go
+                    </h2>
+                    <ul>
+                        <li>Challenge - make a box using the <i>&lt;div&gt;&lt;/div&gt;</i> element</li>
+                        <ol>
+                            <li>Give it a 5px solid green border</li>
+                            <li>Give it a 30px margin</li>
+                            <li>Give it 10px padding</li>
+                        </ol>
+                        <li>Challenge - make a paragraph inside the box</li>
+                        <ol>
+                            <li>Give it an 20px dotted "Indigo" border</li>
+                            <li>Give it a 50px margin</li>
+                            <li>Give it 20px padding</li>
+                        </ol>
+                    </ul>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="pb-3">
+                        <img src="img/css-box-model.png">
+                    </div>
+                    <div class="alert alert-success">
+                        <pre>
+<code class="language-css">
+
+.bigdiv {
+    border: 20px solid Fuchsia;
+    margin: 5px;
+    padding: 50px;
+}
+
+p.golden {
+    background-color: Golden;
+    border-color: GoldenRod;
+    border-width: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+</code>
+                    </pre>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h2>Using CSS templates</h2>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Google them!</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h2>
+                        Creating your own website
+                    </h2>
+                    <ul>
+                        <li><i>What would you like it to be about?</i></li>
+                        <li><i>How might it be structured?</i></li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <div class="alert alert-warning" role="alert">
+                <h2 class="text-center"><i class="far fa-save"></i> Don't forget to save your work
+                </h2>
+            </div>
+            <hr />
+
+
+        </div> <!-- /container -->
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>All the source code for this site can be found at <a target="_blank"
+                    href="https://github.com/phillee007/harakeke-web-exercises">https://github.com/phillee007/harakeke-web-exercises</a>...
+                or just download it from here!</p>
+            <p>We've used <a target="_blank"
+                    href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4</a> for CSS -
+                along with the <a target="_blank" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">Jumbotron
+                    Bootstrap template to get started fast</a>. We've also used the fonts from <a target="_blank"
+                    href="https://fontawesome.com/">FontAwesome</a> for our icons.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
