@@ -1,0 +1,36 @@
+h1{
+  color: red;
+  text-align;
+font-style: fantasy;
+border: 20px solid orange;
+margin: 5px;
+padding: 50px;
+}
+.center { color: aqua;
+text-align;
+font-style: fantasy;
+}
+.center2{ color: yellow;
+text-align;
+font-style: fantasy;
+}
+
+.large{font-size: 100px;
+}
+p{font-size: 100px;
+font-style: fantasy;
+}
+
+body{
+background-image: url(backround.jpg)
+}
+
+.bigdiv{
+border: 20px solid green;
+margin: 5px;
+padding: 50px;
+color: orange;
+background-image: url(backround2.jpg)
+}
+
+
