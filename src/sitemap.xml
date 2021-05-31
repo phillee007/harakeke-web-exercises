@@ -1,38 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>http://harakeke.us1.gearhost.cloud/</loc>
-  <lastmod>2021-05-16T03:20:45+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://harakeke.us1.gearhost.cloud/weekly-lessons-site/</loc>
-  <lastmod>2021-05-16T03:27:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://harakeke.us1.gearhost.cloud/very-simple-html-site/</loc>
-  <lastmod>2021-05-15T09:04:09+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>http://harakeke.us1.gearhost.cloud/weekly-lessons-site/week-1.html</loc>
-  <lastmod>2021-05-16T03:27:35+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://harakeke.us1.gearhost.cloud/weekly-lessons-site/week-2.html</loc>
-  <lastmod>2021-05-16T03:29:24+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+  <url>
+    <loc>https://harakeke.onrender.com/</loc>
+    <lastmod>2021-05-31T08:20:00+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/student-sites/</loc>
+    <lastmod>2021-05-31T08:20:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/weekly-lessons-site/</loc>
+    <lastmod>2021-05-31T08:20:01+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/student-sites/isabelas-website/</loc>
+    <lastmod>2021-05-31T08:20:00+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/student-sites/koens-website/</loc>
+    <lastmod>2021-05-31T08:20:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/student-sites/tishar-and-isaacs-website/</loc>
+    <lastmod>2021-05-31T08:20:00+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/student-sites/arlos-website/</loc>
+    <lastmod>2021-05-31T08:20:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/weekly-lessons-site/week-1.html</loc>
+    <lastmod>2021-05-31T08:20:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/weekly-lessons-site/week-2.html</loc>
+    <lastmod>2021-05-31T08:20:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/weekly-lessons-site/week-3.html</loc>
+    <lastmod>2021-05-31T08:20:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://harakeke.onrender.com/weekly-lessons-site/week-4.html</loc>
+    <lastmod>2021-05-31T08:20:01+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
 </urlset>
