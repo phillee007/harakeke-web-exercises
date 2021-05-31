@@ -1,0 +1,35 @@
+h2 {
+color: black;
+text-align:center;
+}
+
+h1 {
+color: black;
+text-align: center;
+}
+
+body {
+/*background-color: white;*/
+
+background-image: url("https://st4.depositphotos.com/1201487/31541/v/1600/depositphotos_315413818-stock-illustration-vector-tropical-jungle-banner-frame.jpg");
+}
+
+.centre {
+text-align: center;}
+
+.large {
+font-size: 30px;
+border: 20px solid lightblue;
+margin: 5px;
+padding: 50px;
+}
+
+.thick {
+font-weight: bold;
+}
+
+.bigdiv {
+border: 10px solid #A3E4D7;
+margin: 5px;
+padding: 5px;
+}
