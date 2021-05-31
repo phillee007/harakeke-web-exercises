@@ -1,0 +1,39 @@
+body {
+ margin: 0px;
+ background-image: url("warpedplanks.jpg");
+ background-color: #cccccc;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.grey {
+
+ color:black;
+
+}
+
+.center {
+ text-align: center;
+}
+
+.large {
+ font-size: 45px;
+}
+
+.bigbox {
+border: 20px solid grey;
+margin: 0px;
+padding: 50px;
+}
+
